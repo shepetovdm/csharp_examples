@@ -1,0 +1,6 @@
+D:\! Study\Visual Studio\Examples\Shildt C#\11. Наследование\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+D:\! Study\Visual Studio\Examples\Shildt C#\11. Наследование\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\11. Наследование\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+D:\! Study\Visual Studio\Examples\Shildt C#\11. Наследование\Inheritance\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache
+D:\! Study\Visual Studio\Examples\Shildt C#\11. Наследование\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\11. Наследование\Inheritance\Inheritance\obj\Debug\Inheritance.pdb

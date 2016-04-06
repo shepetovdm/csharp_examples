@@ -1,0 +1,6 @@
+D:\! Study\Visual Studio\Examples\Shildt C#\10. Индексаторы и свойства\Indexers\Indexers\bin\Debug\Indexers.exe.config
+D:\! Study\Visual Studio\Examples\Shildt C#\10. Индексаторы и свойства\Indexers\Indexers\bin\Debug\Indexers.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\10. Индексаторы и свойства\Indexers\Indexers\bin\Debug\Indexers.pdb
+D:\! Study\Visual Studio\Examples\Shildt C#\10. Индексаторы и свойства\Indexers\Indexers\obj\Debug\Indexers.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\10. Индексаторы и свойства\Indexers\Indexers\obj\Debug\Indexers.pdb
+D:\! Study\Visual Studio\Examples\Shildt C#\10. Индексаторы и свойства\Indexers\Indexers\obj\Debug\Indexers.csprojResolveAssemblyReference.cache
