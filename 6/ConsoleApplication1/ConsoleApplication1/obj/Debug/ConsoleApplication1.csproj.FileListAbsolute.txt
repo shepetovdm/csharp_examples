@@ -1,0 +1,6 @@
+D:\! Study\Visual Studio\Examples\Shildt C#\6. Введение в классы\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\! Study\Visual Studio\Examples\Shildt C#\6. Введение в классы\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\6. Введение в классы\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\! Study\Visual Studio\Examples\Shildt C#\6. Введение в классы\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\! Study\Visual Studio\Examples\Shildt C#\6. Введение в классы\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\6. Введение в классы\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

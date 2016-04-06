@@ -1,0 +1,6 @@
+D:\! Study\Visual Studio\Examples\Shildt C#\7. Массивы и строки\ConsoleApplication7\ConsoleApplication7\bin\Debug\ConsoleApplication7.exe.config
+D:\! Study\Visual Studio\Examples\Shildt C#\7. Массивы и строки\ConsoleApplication7\ConsoleApplication7\bin\Debug\ConsoleApplication7.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\7. Массивы и строки\ConsoleApplication7\ConsoleApplication7\bin\Debug\ConsoleApplication7.pdb
+D:\! Study\Visual Studio\Examples\Shildt C#\7. Массивы и строки\ConsoleApplication7\ConsoleApplication7\obj\Debug\ConsoleApplication7.csprojResolveAssemblyReference.cache
+D:\! Study\Visual Studio\Examples\Shildt C#\7. Массивы и строки\ConsoleApplication7\ConsoleApplication7\obj\Debug\ConsoleApplication7.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\7. Массивы и строки\ConsoleApplication7\ConsoleApplication7\obj\Debug\ConsoleApplication7.pdb

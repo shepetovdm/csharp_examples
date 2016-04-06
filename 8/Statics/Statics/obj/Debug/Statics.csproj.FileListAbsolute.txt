@@ -1,0 +1,6 @@
+D:\! Study\Visual Studio\Examples\Shildt C#\8. Подробнее о методах и классах\Statics\Statics\bin\Debug\Statics.exe.config
+D:\! Study\Visual Studio\Examples\Shildt C#\8. Подробнее о методах и классах\Statics\Statics\bin\Debug\Statics.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\8. Подробнее о методах и классах\Statics\Statics\bin\Debug\Statics.pdb
+D:\! Study\Visual Studio\Examples\Shildt C#\8. Подробнее о методах и классах\Statics\Statics\obj\Debug\Statics.csprojResolveAssemblyReference.cache
+D:\! Study\Visual Studio\Examples\Shildt C#\8. Подробнее о методах и классах\Statics\Statics\obj\Debug\Statics.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\8. Подробнее о методах и классах\Statics\Statics\obj\Debug\Statics.pdb

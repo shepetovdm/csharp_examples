@@ -1,0 +1,6 @@
+D:\! Study\Visual Studio\Examples\Shildt C#\9. Перегрузка операторов\ReloadOperators\ReloadOperators\bin\Debug\ReloadOperators.exe.config
+D:\! Study\Visual Studio\Examples\Shildt C#\9. Перегрузка операторов\ReloadOperators\ReloadOperators\bin\Debug\ReloadOperators.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\9. Перегрузка операторов\ReloadOperators\ReloadOperators\bin\Debug\ReloadOperators.pdb
+D:\! Study\Visual Studio\Examples\Shildt C#\9. Перегрузка операторов\ReloadOperators\ReloadOperators\obj\Debug\ReloadOperators.csprojResolveAssemblyReference.cache
+D:\! Study\Visual Studio\Examples\Shildt C#\9. Перегрузка операторов\ReloadOperators\ReloadOperators\obj\Debug\ReloadOperators.exe
+D:\! Study\Visual Studio\Examples\Shildt C#\9. Перегрузка операторов\ReloadOperators\ReloadOperators\obj\Debug\ReloadOperators.pdb
