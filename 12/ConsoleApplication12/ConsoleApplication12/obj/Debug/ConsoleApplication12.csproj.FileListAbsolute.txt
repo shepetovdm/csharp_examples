@@ -1,1 +1,7 @@
 D:\!Projects\VS\Examples\csharp_examples\12\ConsoleApplication12\ConsoleApplication12\bin\Debug\ConsoleApplication12.exe.config
+D:\! Study\Visual Studio\Examples\csharp_examples\12\ConsoleApplication12\ConsoleApplication12\bin\Debug\ConsoleApplication12.exe.config
+D:\! Study\Visual Studio\Examples\csharp_examples\12\ConsoleApplication12\ConsoleApplication12\bin\Debug\ConsoleApplication12.exe
+D:\! Study\Visual Studio\Examples\csharp_examples\12\ConsoleApplication12\ConsoleApplication12\bin\Debug\ConsoleApplication12.pdb
+D:\! Study\Visual Studio\Examples\csharp_examples\12\ConsoleApplication12\ConsoleApplication12\obj\Debug\ConsoleApplication12.csprojResolveAssemblyReference.cache
+D:\! Study\Visual Studio\Examples\csharp_examples\12\ConsoleApplication12\ConsoleApplication12\obj\Debug\ConsoleApplication12.exe
+D:\! Study\Visual Studio\Examples\csharp_examples\12\ConsoleApplication12\ConsoleApplication12\obj\Debug\ConsoleApplication12.pdb

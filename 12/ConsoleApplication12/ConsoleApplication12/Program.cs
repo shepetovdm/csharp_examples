@@ -10,6 +10,18 @@ namespace ConsoleApplication12
     {
         static void Main(string[] args)
         {
-        }
+            ByTwos ob = new ByTwos();
+            for (int i = 0; i < 5; i++) Console.WriteLine(ob.GetNext());
+
+            ob.Reset();
+            Console.WriteLine("Сброс");
+            for (int i = 0; i < 5; i++) Console.WriteLine(ob.GetNext());
+
+            ob.SetStart(100);
+            Console.WriteLine("Начать с");
+            for (int i = 0; i < 5; i++) Console.WriteLine(ob.GetNext());
+            
+            Console.ReadKey();
+        }        
     }
 }
