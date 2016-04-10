@@ -24,4 +24,25 @@ namespace ConsoleApplication12
             Console.ReadKey();
         }        
     }
+
+   
+    class SeriesDemo2
+    {
+        static void Main(string[] args)
+        {
+            ByTwos twoob = new ByTwos();
+            Primes primeob = new Primes();
+            ISeries ob;
+
+            for (int i = 0; i < 5; i++) 
+            {
+                ob = twoob;
+                Console.WriteLine("След. четное число равно:" + ob.GetNext());
+
+                ob = primeob;
+                Console.WriteLine("След. простое число равно:" + ob.GetNext());
+            }                        
+            Console.ReadKey();
+        }
+    }
 }

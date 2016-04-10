@@ -27,11 +27,32 @@ namespace ConsoleApplication12
             {
                 isprime = true;
                 for (j = 2; j <= i / j; j++)
-                { 
-                    
+                {
+                    if ((i % j) == 0)
+                    {
+                        isprime = false;
+                        break;
+                    }
+                }
+
+                if (isprime)
+                {
+                    val = i;
+                    break;
                 }
             }
+            return val;
+        }
 
+        public void Reset()
+        {
+            val = start;
+        }
+
+        public void SetStart(int x)
+        {
+            start = x;
+            val = start;
         }
     }
 }

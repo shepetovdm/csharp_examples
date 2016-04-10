@@ -11,5 +11,6 @@ namespace ConsoleApplication12
         int GetNext();
         void Reset();
         void SetStart(int x);
+        
     }
 }
