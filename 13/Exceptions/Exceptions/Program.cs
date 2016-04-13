@@ -41,11 +41,174 @@ namespace Exceptions
             {
                 ExcTest.GenException();
             }
-            catch (DivideByZeroException)
+            catch (IndexOutOfRangeException)
             {
                 Console.WriteLine("Индекс вышел за границы");
             }
             Console.WriteLine("После блока перехвата исключения");
+            Console.ReadKey();
+        }
+    }
+    class ExcDemo3
+    {
+        static void Main(string[] args)
+        {
+            int[] numer = { 4, 8, 16, 32 };
+            int[] denom = { 2, 0, 4, 0 };
+
+            for (int i = 0; i < numer.Length;i++)
+                try
+                {
+                    Console.WriteLine(numer[i] / denom[i]);
+                }
+                catch (DivideByZeroException) 
+                {
+                    Console.WriteLine("На ноль делить нельзя");
+                }
+             Console.ReadKey();       
+        }
+
+    }
+
+    class ExcDemo4
+    {
+        static void Main(string[] args)
+        {
+            int[] numer = { 4, 8, 16, 32, 64, 128, 256, 512};
+            int[] denom = { 2, 0, 4, 0 };
+
+            for (int i = 0; i < numer.Length; i++)
+                try
+                {
+                    Console.WriteLine(numer[i] / denom[i]);
+                }
+                catch (DivideByZeroException)
+                {
+                    Console.WriteLine("На ноль делить нельзя");
+                }
+                catch (IndexOutOfRangeException)
+                {
+                    Console.WriteLine("Индекс вышел за рамки");
+                }
+
+            Console.ReadKey();       
+        }    
+    }
+
+    class ExcDemo5
+    {
+        static void Main(string[] args)
+        {
+            int[] numer = { 4, 8, 16, 32, 64, 128, 256, 512 };
+            int[] denom = { 2, 0, 4, 0 };
+
+            for (int i = 0; i < numer.Length; i++)
+                try
+                {
+                    Console.WriteLine(numer[i] / denom[i]);
+                }
+                catch
+                {
+                    Console.WriteLine("Возникла какая-то ошибка");
+                }
+               
+            Console.ReadKey();
+        }
+    }
+
+    class NestTrys 
+    {
+        static void Main(string[] args)
+        {
+            int[] numer = { 4, 8, 16, 32, 64, 128, 256, 512 };
+            int[] denom = { 2, 0, 4, 0 };
+
+            try
+            {
+                for (int i = 0; i < numer.Length; i++)
+                {
+                    try
+                    {
+                        Console.WriteLine(numer[i] / denom[i]);
+                    }
+                    catch (DivideByZeroException)
+                    {
+                        Console.WriteLine("Деление на 0 не допустимо");
+                    }
+                }
+            }
+            catch (IndexOutOfRangeException)
+            {
+                Console.WriteLine("Индекс вышел за границы");
+                Console.WriteLine("Неисправимая ошибка - программа прервана");
+            }
+            Console.ReadKey();            
+        }
+    }
+
+    class ThrowDemo 
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                Console.WriteLine("До генерирования исключения");
+                throw new DivideByZeroException();
+            }
+            catch
+            {
+                Console.WriteLine("Исключение перехвачено");
+            }
+            Console.WriteLine("После пары операторов try/catch");
+            Console.ReadKey();
+        }        
+    }
+
+    class RethrowDemo 
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                Rethrow.GenExceptions();
+            }
+            catch (IndexOutOfRangeException)
+            {
+                Console.WriteLine("НЕисправимая ошибка - программа прервана");                
+            }
+            Console.ReadKey();
+        }
+    }
+
+    class FinalyDemo
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                UseFinally.GenExceptions(i);
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+        }
+    }
+
+    class UseExcept 
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                ExcTest.GenException();
+            }
+            catch (IndexOutOfRangeException exc)
+            {
+                Console.WriteLine("Стандартное сообщение таково:");
+                Console.WriteLine("Свойство StackTrace" + exc.StackTrace);
+                Console.WriteLine("Свойство Message" + exc.Message);
+                Console.WriteLine("Свойство TargetSite" + exc.TargetSite);                
+            }
+            Console.WriteLine("После перехвата исключения");
             Console.ReadKey();
         }
     }
