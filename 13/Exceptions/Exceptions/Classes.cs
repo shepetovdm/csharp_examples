@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exceptions
+namespace Classes
 {
     class ExcTest
     {
@@ -80,6 +80,38 @@ namespace Exceptions
             {
                 Console.WriteLine("После выхода из блока try");
             }
+        }
+    }
+
+    class X 
+    {
+        int x;
+        public X(int a)
+        {
+            x = a;
+        }
+
+        public int Add(X o)
+        {
+            return x + o.x;
+        }
+    }
+
+    class ExceptA : Exception 
+    {
+        public ExceptA(string str) : base(str) { }
+        public override string ToString()
+        {
+            return Message;
+        }
+    }
+
+    class ExceptB : ExceptA
+    {
+        public ExceptB(string str) : base(str) { }
+        public override string ToString()
+        {
+            return Message;
         }
     }
 }

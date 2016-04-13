@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Indexers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exceptions
+namespace Classes
 {
     class Program
     {
@@ -210,6 +211,73 @@ namespace Exceptions
             }
             Console.WriteLine("После перехвата исключения");
             Console.ReadKey();
+        }
+    }
+
+    class NREDemo
+    {
+        static void Main(string[] args)
+        {
+            X p = new X(10);
+            X q = null;
+            int val;
+
+            try
+            {
+                val = p.Add(q);
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine("NullReferenceException");
+                Console.WriteLine("Исправление ошибки...\n");
+
+                q = new X(9);
+                val = p.Add(q);
+            }
+            Console.WriteLine("Значение val = {0}", val);
+            Console.ReadKey();
+        }    
+    }
+
+    class RangeArrayDemo
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                RangeArray ra = new RangeArray(-5, 5);
+                RangeArray ra2 = new RangeArray(1, 10);
+
+                try
+                {
+                    RangeArray ra3 = new RangeArray(100, -10);
+                }
+                catch (RangeArrayException exc)
+                {
+                    Console.WriteLine(exc);
+                }
+                Console.ReadKey();
+            }
+            catch(RangeArrayException exc)
+            {
+                Console.WriteLine(exc);
+            }
+        }
+    }
+
+    class OrderMatters
+    {
+        static void Main(string[] args)
+        { 
+            for(int x = 0, x < 3; x++)
+            {
+                try
+                {
+                    if(x==0) throw new ExceptA("Перехват исключения типа ExceptA");
+                    else if(x==1) throw new ExceptB("Перехват исключения типа ExceptB");
+
+                }
+            }
         }
     }
 }
