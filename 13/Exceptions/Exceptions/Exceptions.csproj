@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Classes.RangeArrayDemo</StartupObject>
+    <StartupObject>Classes.OrderMatters</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
